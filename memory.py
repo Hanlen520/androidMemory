@@ -3,7 +3,7 @@
 import commands
 import re
 
-PACKAGE_NAME = "com.yixia.videoeditor"
+PACKAGE_NAME = "com.yixia"
 MEMORY_MOBILE = "adb shell 'cat /proc/meminfo'"
 MEMORY = "adb shell 'dumpsys meminfo' | grep RAM"
 MEMORY_APP = "adb shell 'dumpsys meminfo " + PACKAGE_NAME + " | grep TOTAL:'"
